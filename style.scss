@@ -1,0 +1,21 @@
+$primary-color: #dee8e8;
+$secondary-color:#262626;
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+background-color:$primary-color;
+height:150vh;
+
+nav {
+
+}
+
+.hero {
+    height: 40%;
+}
+
+}
