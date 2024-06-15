@@ -6,8 +6,75 @@
 
 body {
   background-color: #dee8e8;
-  height: 150vh;
 }
-body .hero {
-  height: 40%;
+
+.wrapper {
+  display: block;
+  max-width: 1350px !important;
+  margin: auto;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 35px;
+  border-bottom: 1px solid #262626;
+  border-left: 1px solid #262626;
+  border-right: 1px solid #262626;
+}
+#header .news {
+  min-width: 180px;
+  max-width: 100%;
+  background-color: #262626;
+  color: #fff;
+  padding: 15px 25px;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+#header .news:hover {
+  background-color: #dee8e8;
+  color: #262626;
+  transition: ease-in 0.4s;
+  border: 1px solid #262626;
+}
+#header .navigation {
+  display: flex;
+  gap: 14px;
+  list-style: none;
+}
+#header .navigation a {
+  text-decoration: none;
+  color: #262626;
+}
+#header .navigation a:hover, #header .navigation a.active {
+  font-weight: bolder;
+  color: #000;
+}
+
+.hero {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-top: 40px;
+  gap: 15px;
+}
+.hero .hero_left {
+  display: flex;
+  flex-direction: column;
+  max-width: 35%;
+}
+.hero .hero_left h1 {
+  font-size: 42px;
+  letter-spacing: 1.2px;
+}
+.hero .hero_left p {
+  margin-top: 25px;
+  font-size: 18px;
+}
+.hero .hero_right {
+  width: 55%;
+}
+.hero .hero_right img {
+  max-width: 100%;
 }/*# sourceMappingURL=style.css.map */
